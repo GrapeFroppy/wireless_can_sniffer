@@ -1,0 +1,40 @@
+# Build outputs
+build/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.elf
+*.bin
+*.hex
+*.map
+
+# ESP / PlatformIO / Arduino (common stuff)
+.pio/
+.pioenvs/
+.pioBuild/
+.pio/libdeps/
+.sdk/
+sdkconfig
+sdkconfig.old
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
